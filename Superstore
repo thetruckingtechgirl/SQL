@@ -1,0 +1,17 @@
+SELECT AVG (average_rating)
+2
+FROM superstore
+3
+GROUP BY price;
+4
+​
+5
+SELECT item name,
+6
+stock_quantity
+7
+FROM inventory
+8
+category = Kitchen Supplies;
+
+​
